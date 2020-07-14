@@ -1,3 +1,7 @@
-import math
+x = 0
 
-print("hello world")
+while True:
+    print(f"Hello, World! {x}")
+    x += 1
+    if x > 1000:
+        x = 0
