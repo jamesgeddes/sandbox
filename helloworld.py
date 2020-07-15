@@ -7,7 +7,12 @@ x_limit = 10
 limit = False
 
 while True:
-    print(f"Hello, {x}! Limit is currently {limit}")
+
+    if limit:
+        x -= 1
+
+    else:
+        x += 1
 
     if x >= x_limit:
         limit = True
@@ -15,10 +20,5 @@ while True:
     if x <= ~ x_limit + 1:
         limit = False
 
-    if limit is True:
-        x -= 1
-    else:
-        x += 1
-
-    sleep(0.5)
-
+    print(f"Hello floor {x}!")
+    sleep(1)
