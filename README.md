@@ -1,2 +1,2 @@
 # sandbox
-Random testing junk
+Random demo and testing stuff.
