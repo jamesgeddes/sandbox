@@ -3,7 +3,7 @@
 from time import sleep
 
 x = 0
-x_limit = 10
+x_limit = 3
 limit = False
 
 while True:
