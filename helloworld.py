@@ -21,4 +21,4 @@ while True:
         limit = False
 
     print(f"Hello floor {x}!")
-    sleep(14)
+    sleep(42)
