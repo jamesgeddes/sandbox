@@ -3,13 +3,13 @@
 from time import sleep
 
 x = 0
-x_limit = 10
+x_limit = 100
 limit = False
 
 while True:
 
     if limit:
-        x -= 1
+        x -= 3
 
     else:
         x += 1
