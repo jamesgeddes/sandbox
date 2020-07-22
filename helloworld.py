@@ -21,4 +21,4 @@ while True:
         limit = False
 
     print("Hello floor " + str(x))
-    sleep(0.2)
+    sleep(2)
