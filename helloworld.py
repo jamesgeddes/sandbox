@@ -12,7 +12,7 @@ while True:
         x -= 3
 
     else:
-        x += 1
+        x += 10
 
     if x >= x_limit:
         limit = True
@@ -21,4 +21,4 @@ while True:
         limit = False
 
     print("Hello floor " + str(x))
-    sleep(0.5)
+    sleep(0.4)
