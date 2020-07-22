@@ -3,7 +3,7 @@
 from time import sleep
 
 x = 0
-x_limit = 100
+x_limit = 10
 limit = False
 
 while True:
@@ -21,4 +21,4 @@ while True:
         limit = False
 
     print(f"Hello floor {x}!")
-    sleep(0.5)
+    sleep(1)
