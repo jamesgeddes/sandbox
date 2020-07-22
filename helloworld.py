@@ -20,5 +20,5 @@ while True:
     if x <= ~ x_limit + 1:
         limit = False
 
-    print(f"Hello floor {x}!")
+    print("Hello floor " + str(x})
     sleep(0.2)
