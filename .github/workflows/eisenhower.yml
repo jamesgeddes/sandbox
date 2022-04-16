@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GH_ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
-      GH_REPOSITORY: ${{ github.repository }}
+      GH_REPOSITORY: "jamesgeddes/sandbox"
     steps:
     - name: Run Eisenhower action
       uses: GeekZoneHQ/eisenhower@main
