@@ -1,0 +1,10 @@
+name: Eisenhower
+on:
+  issues:
+    types: [opened, edited]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run Eisenhower action
+      uses: GeekZoneHQ/eisenhower@main
