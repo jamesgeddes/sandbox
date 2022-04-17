@@ -36,3 +36,5 @@ name = input("What is its name? ")
 print(cat(int(legs), name))
 lopped_cat = cat(int(legs), name)
 print(lopped_cat/2)
+
+print("fannycat")
